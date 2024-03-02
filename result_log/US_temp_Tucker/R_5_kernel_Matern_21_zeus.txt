@@ -1,0 +1,35 @@
+
+ take 1259.6 seconds to finish 5 folds. avg time: 251.9 seconds, 
+
+ Setting: R_U = 5, epoch = 100, kernel_type = Matern_21,  lenthscale = [0.5, 0.5, 0.5], variance = [1, 1, 1],  
+
+ CEP_UPDATE_INNNER_MODE: True,  DAMPING: U = 0.9, tau = 0.9, gamma = 0.9,  
+
+ final test RMSE, avg is 1.4177, std is 0.0688 
+
+ final test MAE, avg is 0.8609, std is 0.0377 
+ take 513.0 seconds to finish 1 folds. avg time: 513.0 seconds, 
+
+ Setting: R_U = 5, epoch = 150, kernel_type = Matern_21,  lenthscale = [0.5, 0.5, 0.5], variance = [1, 1, 1],  
+
+ CEP_UPDATE_INNNER_MODE: True,  DAMPING: U = 0.9, tau = 0.9, gamma = 0.9,  
+
+ final test RMSE, avg is 1.2250, std is 0.0000 
+
+ final test MAE, avg is 0.7192, std is 0.0000 
+
+
+
+
+ take 2606.0 seconds to finish 5 folds. avg time: 521.2 seconds, 
+
+ Setting: R_U = 5, epoch = 150, kernel_type = Matern_21,  lenthscale = [0.5, 0.5, 0.5], variance = [1, 1, 1],  
+
+ CEP_UPDATE_INNNER_MODE: True,  DAMPING: U = 0.9, tau = 0.9, gamma = 0.9,  
+
+ final test RMSE, avg is 1.3353, std is 0.1598 
+
+ final test MAE, avg is 0.8025, std is 0.0858 
+
+
+

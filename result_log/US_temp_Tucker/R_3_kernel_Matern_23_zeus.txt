@@ -1,0 +1,13 @@
+
+ take 32.6 seconds to finish 1 folds. avg time: 32.6 seconds, 
+
+ Setting: R_U = 3, epoch = 150, kernel_type = Matern_23,  lenthscale = [0.1, 0.1, 0.1], variance = [1, 1, 1],  
+
+ CEP_UPDATE_INNNER_MODE: False,  DAMPING: U = 0.7, tau = 0.8, gamma = 0.7,  
+
+ final test RMSE, avg is 3.5034, std is 0.0000 
+
+ final test MAE, avg is 2.9452, std is 0.0000 
+
+
+

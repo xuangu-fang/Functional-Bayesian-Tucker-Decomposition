@@ -1,0 +1,2 @@
+dataset: beijing_SO2, ndims: [50, 50, 150]
+  base-0 indexing, space-separated, last-column is entry values, last-mode is DDT-mode (use for static baseline, drop for streaming baselines), all entries ordered by DDT-mode (last mode)

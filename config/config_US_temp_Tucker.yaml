@@ -1,0 +1,35 @@
+# config: hyper paras
+
+device: "cpu" #"cpu"
+epoch: 200
+EVALU_EPOCH: 10
+
+data_path: "./data/US_temp/CONTI_15x95x267.npy"
+
+R_U: 2
+a0: 1
+b0: 1
+v: 1
+fold: 1 # number of folds(random split) and take average,min:1,max:5'
+# LDS paras for each mode
+kernel: "Matern_21" # GP kernel type, Matern_21 or Matern_23", assume each mode use same kernel-type at now
+
+lengthscale_list:
+  - 0.5 # lengthscale of kernel of each mode
+  - 0.5
+  - 0.5
+variance_list:
+  - 1 # var of kernel of each mode
+  - 1
+  - 1
+
+noise: 1 # obvs_noise of KF, will not be used actully
+
+DAMPING: 0.90
+DAMPING_tau: 0.9
+DAMPING_gamma: 0.95
+
+THRE: 1e-4 # therethold of CEP innner iteration
+
+CEP_UPDATE_INNNER_MODE: True # whether do CEP mag_approx + post_update innner per mode, if false, we do it seperately after go through all mode
+
