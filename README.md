@@ -1,4 +1,6 @@
-# Functional-Bayesian-Tucker-Tensorr
+# Functional-Bayesian-Tucker-Tensor
+
+Official implementation of the paper "Functional Bayesian Tucker Decomposition for Continuous-indexed Tensor Data" (ICLR 2024).
 
 to be continued
 ```
