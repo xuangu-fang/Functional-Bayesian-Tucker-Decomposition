@@ -10,8 +10,8 @@ This authors' official PyTorch implementation for paper:["Functional Bayesian Tu
 
 
 Each function is modeled as a State-Space Gaussian Process(SSGP): 
-<div align=center> <img src="./figs/FunBat-eq1.PNG" width = 100%/> </div>
-<div align=center> <img src="./figs/FunBat-eq2.PNG" width = 100%/> </div>
+<div align=center> <img src="./figs/funBat-eq1.PNG" width = 100%/> </div>
+<div align=center> <img src="./figs/funBat-eq2.PNG" width = 100%/> </div>
 
 
 
