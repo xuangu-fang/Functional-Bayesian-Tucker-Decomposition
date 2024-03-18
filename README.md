@@ -3,6 +3,22 @@
 This authors' official PyTorch implementation for paper:["Functional Bayesian Tucker Decomposition for Continuous-indexed Tensor Data"](https://openreview.net/forum?id=ZWyZeqE928&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)) (ICLR 2024).
 
 
+#### Key Idea:  Decompose Continuous-indexed Tensor Data as mode-wise latent functions in Tucker format
+
+
+<div align=center> <img src="./figs/FunBat-eq.PNG" width = 100%/> </div>
+
+
+Each function is modeled as a State-Space Gaussian Process(SSGP): 
+<div align=center> <img src="./figs/FunBat-eq1.PNG" width = 100%/> </div>
+<div align=center> <img src="./figs/FunBat-eq2.PNG" width = 100%/> </div>
+
+
+
+Example of latent functions of spatial and temporal modes learned from real-world data.
+<div align=center> <img src="./figs/FunBat.PNG" width = 100%/> </div>
+<div align=center> <img src="./figs/FunBat-time.PNG" width = 50%/> </div>
+
 ## Requirements:
 The project is mainly built with **pytorch 1.13.1** under **python 3.10**. Besides that, make sure to install [tqdm](https://tqdm.github.io/) and [tensorly==0.70](http://tensorly.org/stable/index.html) before running the project. The detailed package info can be found in requirement.txt (many packages there in the list are redundant, so we don't recommand to build the env with such file).
 
@@ -12,6 +28,7 @@ The project is mainly built with **pytorch 1.13.1** under **python 3.10**. Besid
 3. To run the real-world datasets with scripts, see `script_Funbat.sh` and `script_Funbat_CP.sh` for example.
 4. To tune the (hyper)parametrs of model, modify the `.yaml` files in `config` folder
 5. To apply the model on your own dataset, please follow the [process_script](https://github.com/xuangu-fang/Functional-Bayesian-Tucker-Decomposition/tree/master/data/process_script). or [generating-synthetic-data](data/synthetic/simu_data_generate_CP_r1.ipynb) to process the raw data into appropriate format.
+6. GPU choice: the models are run on CPU by default, but you can change the device to GPU by modifying the `device` as `gpu` of `.yaml` files in the `config` folder.
 
 
 ## Data

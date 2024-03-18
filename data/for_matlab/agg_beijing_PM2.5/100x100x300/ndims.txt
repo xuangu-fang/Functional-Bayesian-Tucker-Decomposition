@@ -1,2 +1,0 @@
-dataset: beijing_PM2.5, ndims: [100, 100, 300]
-  base-0 indexing, space-separated, last-column is entry values, last-mode is DDT-mode (use for static baseline, drop for streaming baselines), all entries ordered by DDT-mode (last mode)
