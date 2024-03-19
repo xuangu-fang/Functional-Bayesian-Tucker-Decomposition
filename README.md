@@ -22,7 +22,7 @@ Example of latent functions of spatial and temporal modes learned from real-worl
 <div align=center> <img src="./figs/FunBat-time.PNG" width = 50%/> </div>
 
 ## Requirements:
-The project is mainly built with **pytorch 1.13.1** under **python 3.10**. Besides that, make sure to install [tqdm](https://tqdm.github.io/) and [tensorly==0.70](http://tensorly.org/stable/index.html) before running the project. The detailed package info can be found in requirement.txt (many packages there in the list are redundant, so we don't recommand to build the env with such file).
+The project is mainly built with **pytorch 1.13.1** under **python 3.10**. Besides that, make sure to install [tqdm](https://tqdm.github.io/) and [tensorly==0.70](http://tensorly.org/stable/index.html) before running the project. The detailed package info can be found in requirement.txt.
 
 ## Instructions:
 1. Clone this repository.
