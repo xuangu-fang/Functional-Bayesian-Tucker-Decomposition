@@ -1,18 +1,18 @@
 # Functional-Bayesian-Tucker-Tensor
 
-This authors' official PyTorch implementation for paper:["Functional Bayesian Tucker Decomposition for Continuous-indexed Tensor Data"](https://openreview.net/forum?id=ZWyZeqE928&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)) (ICLR 2024).
+This authors' official PyTorch implementation for paper:"**Functional Bayesian Tucker Decomposition for Continuous-indexed Tensor Data**"[[OpenReview]](https://openreview.net/forum?id=ZWyZeqE928&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions))[[Arxiv](https://arxiv.org/abs/2311.04829)] (ICLR 2024).
 
-
+---
 #### Key Idea:  Decompose Continuous-indexed Tensor Data as mode-wise latent functions in Tucker format
 
 
 <div align=center> <img src="./figs/FunBat-eq.PNG" width = 100%/> </div>
 
 
-Each function is modeled as a State-Space Gaussian Process(SSGP): 
+Each function is modeled as a group of State-Space Gaussian Processes(SSGPs): 
 <div align=center> <img src="./figs/funbat-eq1.PNG" width = 100%/> </div>
 
-
+---
 
 
 
@@ -56,5 +56,4 @@ Please cite our work if you would like it
 
 ```
 TBD
-to-do-list:
-- [ ] 1. update arxiv link + formal citation
+
