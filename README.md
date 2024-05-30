@@ -6,7 +6,7 @@ This authors' official PyTorch implementation for paper:"**Functional Bayesian T
 #### Key Idea:  Decompose Continuous-indexed Tensor Data as mode-wise latent functions in Tucker format
 
 
-<div align=center> <img src="./figs/FunBat-eq.PNG" width = 100%/> </div>
+<div align=center> <img src="figs/FunBat-illustration.PNG" width = 100%/> </div>
 
 
 Each function is modeled as a group of State-Space Gaussian Processes(SSGPs): 
